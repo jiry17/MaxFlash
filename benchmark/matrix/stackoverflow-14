@@ -1,0 +1,10 @@
+// size of input matrix 
+40,16
+
+// desired program 
+Reshape( Permute( Reshape( Permute( Var(x), B(1,0) ), L(16,B(5,8)) ), L(1,B(0,2)) ), B(5,128) )
+
+// extra constants for symbols 
+c: 16#2
+d: 128#16
+

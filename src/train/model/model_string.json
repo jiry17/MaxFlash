@@ -1,0 +1,730 @@
+[
+    {
+        "context": [
+            "None"
+        ],
+        "rule": [
+            {
+                "term": "str.++",
+                "p": 0.3333333333333333
+            },
+            {
+                "term": "str.substr",
+                "p": 0.3333333333333333
+            },
+            {
+                "term": "str.replace",
+                "p": 0.08943089430894309
+            },
+            {
+                "term": "str.prefixof",
+                "p": 0.016260162601626018
+            },
+            {
+                "term": "int.to.str",
+                "p": 0.008130081300813009
+            },
+            {
+                "term": "ite",
+                "p": 0.06504065040650407
+            },
+            {
+                "term": "str.contains",
+                "p": 0.056910569105691054
+            },
+            {
+                "term": "+",
+                "p": 0.024390243902439025
+            },
+            {
+                "term": "str.len",
+                "p": 0.024390243902439025
+            },
+            {
+                "term": "=",
+                "p": 0.008130081300813009
+            },
+            {
+                "term": "str.to.int",
+                "p": 0.016260162601626018
+            },
+            {
+                "term": "-",
+                "p": 0.008130081300813009
+            },
+            {
+                "term": "str.suffixof",
+                "p": 0.008130081300813009
+            },
+            {
+                "term": "str.at",
+                "p": 0.008130081300813009
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.++@1"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.24666666666666667
+            },
+            {
+                "term": "Constant@SomeOutput",
+                "p": 0.10666666666666667
+            },
+            {
+                "term": "str.substr",
+                "p": 0.02666666666666667
+            },
+            {
+                "term": "Constant@SomeInOutput",
+                "p": 0.11333333333333333
+            },
+            {
+                "term": "str.at",
+                "p": 0.04
+            },
+            {
+                "term": "str.++",
+                "p": 0.43333333333333335
+            },
+            {
+                "term": "Constant@SomeInput",
+                "p": 0.013333333333333334
+            },
+            {
+                "term": "Constant@None",
+                "p": 0.013333333333333334
+            },
+            {
+                "term": "int.to.str",
+                "p": 0.006666666666666667
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.++@2"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.16666666666666666
+            },
+            {
+                "term": "str.++",
+                "p": 0.16
+            },
+            {
+                "term": "ite",
+                "p": 0.03333333333333333
+            },
+            {
+                "term": "str.substr",
+                "p": 0.02666666666666667
+            },
+            {
+                "term": "Constant@SomeOutput",
+                "p": 0.3
+            },
+            {
+                "term": "str.replace",
+                "p": 0.02666666666666667
+            },
+            {
+                "term": "Constant@SomeInOutput",
+                "p": 0.18666666666666668
+            },
+            {
+                "term": "Constant@SomeInput",
+                "p": 0.04
+            },
+            {
+                "term": "str.at",
+                "p": 0.05333333333333334
+            },
+            {
+                "term": "int.to.str",
+                "p": 0.006666666666666667
+            }
+        ]
+    },
+    {
+        "context": [
+            "ite@1"
+        ],
+        "rule": [
+            {
+                "term": "str.prefixof",
+                "p": 0.2222222222222222
+            },
+            {
+                "term": "str.suffixof",
+                "p": 0.5555555555555556
+            },
+            {
+                "term": "str.contains",
+                "p": 0.16666666666666666
+            },
+            {
+                "term": "=",
+                "p": 0.05555555555555555
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.prefixof@1"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.6666666666666666
+            },
+            {
+                "term": "Constant@SomeInOutput",
+                "p": 0.16666666666666666
+            },
+            {
+                "term": "Constant@SomeInput",
+                "p": 0.16666666666666666
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.prefixof@2"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 1.0
+            }
+        ]
+    },
+    {
+        "context": [
+            "ite@2"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.6666666666666666
+            },
+            {
+                "term": "Constant@Int",
+                "p": 0.05555555555555555
+            },
+            {
+                "term": "+",
+                "p": 0.16666666666666666
+            },
+            {
+                "term": "ite",
+                "p": 0.1111111111111111
+            }
+        ]
+    },
+    {
+        "context": [
+            "ite@3"
+        ],
+        "rule": [
+            {
+                "term": "str.++",
+                "p": 0.5
+            },
+            {
+                "term": "Param@String",
+                "p": 0.16666666666666666
+            },
+            {
+                "term": "Constant@Int",
+                "p": 0.05555555555555555
+            },
+            {
+                "term": "+",
+                "p": 0.1111111111111111
+            },
+            {
+                "term": "ite",
+                "p": 0.1111111111111111
+            },
+            {
+                "term": "str.indexof",
+                "p": 0.05555555555555555
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.substr@1"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.9056603773584906
+            },
+            {
+                "term": "Constant@SomeOutput",
+                "p": 0.07547169811320754
+            },
+            {
+                "term": "str.++",
+                "p": 0.018867924528301886
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.substr@2"
+        ],
+        "rule": [
+            {
+                "term": "Constant@Int",
+                "p": 0.660377358490566
+            },
+            {
+                "term": "+",
+                "p": 0.20754716981132076
+            },
+            {
+                "term": "-",
+                "p": 0.07547169811320754
+            },
+            {
+                "term": "Param@Int",
+                "p": 0.03773584905660377
+            },
+            {
+                "term": "str.indexof",
+                "p": 0.018867924528301886
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.substr@3"
+        ],
+        "rule": [
+            {
+                "term": "Constant@Int",
+                "p": 0.39622641509433965
+            },
+            {
+                "term": "str.indexof",
+                "p": 0.3018867924528302
+            },
+            {
+                "term": "-",
+                "p": 0.07547169811320754
+            },
+            {
+                "term": "+",
+                "p": 0.07547169811320754
+            },
+            {
+                "term": "str.len",
+                "p": 0.1320754716981132
+            },
+            {
+                "term": "Param@Int",
+                "p": 0.018867924528301886
+            }
+        ]
+    },
+    {
+        "context": [
+            "+@1"
+        ],
+        "rule": [
+            {
+                "term": "Constant@Int",
+                "p": 0.41935483870967744
+            },
+            {
+                "term": "str.indexof",
+                "p": 0.22580645161290322
+            },
+            {
+                "term": "str.len",
+                "p": 0.06451612903225806
+            },
+            {
+                "term": "+",
+                "p": 0.22580645161290322
+            },
+            {
+                "term": "ite",
+                "p": 0.03225806451612903
+            },
+            {
+                "term": "-",
+                "p": 0.03225806451612903
+            }
+        ]
+    },
+    {
+        "context": [
+            "+@2"
+        ],
+        "rule": [
+            {
+                "term": "Constant@Int",
+                "p": 0.9354838709677419
+            },
+            {
+                "term": "Param@Int",
+                "p": 0.06451612903225806
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.replace@1"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.64
+            },
+            {
+                "term": "Constant@SomeInOutput",
+                "p": 0.04
+            },
+            {
+                "term": "str.replace",
+                "p": 0.32
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.replace@2"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.12
+            },
+            {
+                "term": "str.replace",
+                "p": 0.04
+            },
+            {
+                "term": "Constant@SomeInOutput",
+                "p": 0.16
+            },
+            {
+                "term": "Constant@SomeInput",
+                "p": 0.6
+            },
+            {
+                "term": "str.substr",
+                "p": 0.04
+            },
+            {
+                "term": "str.++",
+                "p": 0.04
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.replace@3"
+        ],
+        "rule": [
+            {
+                "term": "Constant@SomeInOutput",
+                "p": 0.36
+            },
+            {
+                "term": "str.++",
+                "p": 0.16
+            },
+            {
+                "term": "Constant@SomeOutput",
+                "p": 0.4
+            },
+            {
+                "term": "Constant@SomeInput",
+                "p": 0.08
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.indexof@1"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.9629629629629629
+            },
+            {
+                "term": "str.++",
+                "p": 0.037037037037037035
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.indexof@2"
+        ],
+        "rule": [
+            {
+                "term": "Constant@SomeInOutput",
+                "p": 0.2222222222222222
+            },
+            {
+                "term": "Constant@SomeInput",
+                "p": 0.7037037037037037
+            },
+            {
+                "term": "str.at",
+                "p": 0.037037037037037035
+            },
+            {
+                "term": "Param@String",
+                "p": 0.037037037037037035
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.indexof@3"
+        ],
+        "rule": [
+            {
+                "term": "Constant@Int",
+                "p": 0.9629629629629629
+            },
+            {
+                "term": "str.len",
+                "p": 0.037037037037037035
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.at@1"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.9375
+            },
+            {
+                "term": "str.++",
+                "p": 0.0625
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.at@2"
+        ],
+        "rule": [
+            {
+                "term": "Constant@Int",
+                "p": 0.9375
+            },
+            {
+                "term": "Param@Int",
+                "p": 0.0625
+            }
+        ]
+    },
+    {
+        "context": [
+            "-@1"
+        ],
+        "rule": [
+            {
+                "term": "str.len",
+                "p": 0.9
+            },
+            {
+                "term": "Constant@Int",
+                "p": 0.1
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.len@1"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.7916666666666666
+            },
+            {
+                "term": "str.++",
+                "p": 0.08333333333333333
+            },
+            {
+                "term": "Constant@SomeInput",
+                "p": 0.041666666666666664
+            },
+            {
+                "term": "str.substr",
+                "p": 0.08333333333333333
+            }
+        ]
+    },
+    {
+        "context": [
+            "-@2"
+        ],
+        "rule": [
+            {
+                "term": "Constant@Int",
+                "p": 0.8
+            },
+            {
+                "term": "Param@Int",
+                "p": 0.1
+            },
+            {
+                "term": "str.len",
+                "p": 0.1
+            }
+        ]
+    },
+    {
+        "context": [
+            "int.to.str@1"
+        ],
+        "rule": [
+            {
+                "term": "Param@Int",
+                "p": 0.25
+            },
+            {
+                "term": "Constant@Int",
+                "p": 0.25
+            },
+            {
+                "term": "str.indexof",
+                "p": 0.25
+            },
+            {
+                "term": "str.len",
+                "p": 0.25
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.suffixof@1"
+        ],
+        "rule": [
+            {
+                "term": "Constant@SomeInOutput",
+                "p": 0.7272727272727273
+            },
+            {
+                "term": "Param@String",
+                "p": 0.18181818181818182
+            },
+            {
+                "term": "Constant@SomeInput",
+                "p": 0.09090909090909091
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.suffixof@2"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 1.0
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.contains@1"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.8
+            },
+            {
+                "term": "str.++",
+                "p": 0.1
+            },
+            {
+                "term": "str.replace",
+                "p": 0.1
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.contains@2"
+        ],
+        "rule": [
+            {
+                "term": "Param@String",
+                "p": 0.6
+            },
+            {
+                "term": "Constant@SomeInput",
+                "p": 0.3
+            },
+            {
+                "term": "int.to.str",
+                "p": 0.1
+            }
+        ]
+    },
+    {
+        "context": [
+            "=@1"
+        ],
+        "rule": [
+            {
+                "term": "+",
+                "p": 0.5
+            },
+            {
+                "term": "str.indexof",
+                "p": 0.5
+            }
+        ]
+    },
+    {
+        "context": [
+            "=@2"
+        ],
+        "rule": [
+            {
+                "term": "Constant@Int",
+                "p": 1.0
+            }
+        ]
+    },
+    {
+        "context": [
+            "str.to.int@1"
+        ],
+        "rule": [
+            {
+                "term": "str.substr",
+                "p": 0.5
+            },
+            {
+                "term": "Param@String",
+                "p": 0.5
+            }
+        ]
+    }
+]
