@@ -10,7 +10,6 @@
 
    ```bash
    $ sudo apt-get install libjsoncpp-dev libgoogle-glog-dev libgflags-dev cmake python3-pip
-   $ sudo apt-get install libgoogle-glog-devsudo apt-get install 
    ```
 
 2. Clone *MaxFlash*
